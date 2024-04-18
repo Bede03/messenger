@@ -281,7 +281,7 @@ img,section,i{
 .profile img{
     width: 60px;
     height: 60px;
-    border-radius: 25px;
+    border-radius: 35px;
     margin-top: 15px;
     cursor: pointer;
 }
