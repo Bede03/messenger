@@ -1,0 +1,345 @@
+*{
+    font-family: Helvetica;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    height: 100dvh;
+    position: fixed;
+}
+
+.menus{
+max-width: 50px;
+width: 100%;
+font-size: 13px;
+border-right: 1px solid rgb(207, 207, 207);
+text-align: center;
+
+}
+i{
+    cursor: pointer;
+}
+.menus ul{
+    list-style: none;
+    margin-left: -80%;
+    text-align: center;
+    height: 75%;
+}
+.menus li i{
+    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 7px;
+}
+.active{
+    padding: 7px;
+    font-size: 20px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+}
+.menus li i:hover{
+    background-color: rgb(207, 207, 207);
+    border-radius: 5px;
+}
+.menus .bottom{
+
+}
+.menus .bottom img{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+.menus .bottom i{
+    padding: 5px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 25px;
+    margin-top: 10px;
+}
+.menus .bottom li i:hover{
+    border-radius: 25px;
+    background-color: rgb(207, 207, 207);
+}
+
+
+.chats{
+    max-width: 350px;
+    width: 100%;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    
+}
+
+.chats .c-header{
+    position: relative;
+    margin-top: -5%;
+    padding: 10px;
+    border-right: 1px solid rgb(207, 207, 207);
+
+}
+
+.chats ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-left: -25px;
+}
+.chats ul li i{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(225, 225, 225);
+    border-radius: 25px;
+    padding: 5px;
+    text-align: center;
+    padding-left: 8px;
+    padding-bottom: 8px;
+}
+.chats ul li i:hover{
+    background-color: rgb(207, 207, 207);
+}
+.chats .c-header span{
+    text-align: left;
+    font-size: 150%;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.chats .c-header input{
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(235, 235, 235);
+}
+.c-names .message{
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.c-names .message img{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    display: flex;
+    margin-left: 5%;
+}
+.c-names .message section{
+    margin-left: 15px;
+}
+
+.c-names .message #name{
+    margin-bottom: 0px;
+}
+.c-names .message #message{
+    margin-top: 5px;
+    font-size: 14px;
+    color: gray;
+}
+
+
+
+/*----- messages block -----*/
+.messages{
+    max-width: 740px;
+    width: 100%;
+    border-right: 1px solid rgb(207, 207, 207);
+}
+.messages .m-header{
+    border-bottom: 1px solid rgb(207, 207, 207);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.messages .m-header .single-name{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.messages .m-header .single-name img{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+.messages .m-header .single-name #name{
+    margin-left: 10px;
+    font-weight: bold;
+}
+.messages .m-header .icons{
+    margin-right: 10px;
+}
+.messages .m-header .icons i{
+    margin-right: 5px;
+    margin-left: 5px;
+    color: hsl(213, 100%, 61%);
+}
+
+.messages .m-chats{
+    height: 78dvh;
+    display: flexbox;
+    justify-content: last baseline;
+
+}
+.messages #receiver{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.messages #receiver img{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+.messages .m-chats .receiver{
+    max-width: 50%;
+    width: fit-content;
+    text-align: left;
+    background-color: rgb(235, 235, 235);
+    color: black;
+    padding: 10px;
+    border-radius: 150px;
+    margin-left: 15px;
+
+}
+.messages #sender{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.messages .m-chats .sender{
+    max-width: 50%;
+    width: fit-content;
+    background-color: hsl(213, 100%, 61%);
+    color: white;
+    padding: 10px;
+    border-radius: 150px;
+
+}
+.messages .m-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.messages .m-footer i{
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: hsl(213, 100%, 61%);
+}
+.messages .m-footer input{
+    padding: 8px;
+    font-size: 15px;
+    width: 62%;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid rgb(235, 235, 235);
+    background-color: rgb(235, 235, 235);
+}
+/*--- Profile block -----*/
+
+.profile{
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.profile .name{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.profile .icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+}
+.profile .icons i{
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 25px;
+}
+
+.profile .chat-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.profile .cust-chat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.profile .media-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.profile .privacy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.chat-info:hover,.cust-chat:hover,.media-links:hover,.privacy:hover{
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+}
+
