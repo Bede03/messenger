@@ -46,7 +46,7 @@ img,section,i{
     border-radius: 5px;
 }
 .menus li i:hover{
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(235, 235, 235);
     border-radius: 5px;
 }
 .menus .bottom{
@@ -67,7 +67,7 @@ img,section,i{
 }
 .menus .bottom li i:hover{
     border-radius: 25px;
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(230, 230, 230);
 }
 
 
@@ -131,6 +131,10 @@ img,section,i{
     text-align: left;
     align-items: center;
 }
+.c-names .message{
+    background-color:rgb(235, 235, 235);
+    border-radius:5px;
+}
 
 .c-names .message img{
     width: 40px;
@@ -172,6 +176,10 @@ img,section,i{
     margin-left: 15px;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+.single-name:hover{
+    background-color: rgb(235,235,235);
+    border-radius:5px;
 }
 .messages .m-header .single-name img{
     width: 40px;
