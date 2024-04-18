@@ -23,8 +23,9 @@ border-right: 1px solid rgb(207, 207, 207);
 text-align: center;
 
 }
-i{
-    cursor: pointer;
+
+img,section,i{
+    cursor:pointer;
 }
 .menus ul{
     list-style: none;
@@ -180,6 +181,7 @@ i{
 .messages .m-header .single-name #name{
     margin-left: 10px;
     font-weight: bold;
+    cursor:pointer;
 }
 .messages .m-header .icons{
     margin-right: 10px;
