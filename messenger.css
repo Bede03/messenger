@@ -130,6 +130,8 @@ img,section,i{
     display: flex;
     text-align: left;
     align-items: center;
+    width:99%;
+    justify-content:center;
 }
 .c-names .message:hover{
     background-color:rgb(235, 235, 235);
@@ -219,7 +221,7 @@ img,section,i{
     border-radius: 25px;
 }
 .messages #receiver img:hover{
-    cursor:none;
+    cursor:default;
 }
 .messages .m-chats .receiver{
     max-width: 50%;
