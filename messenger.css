@@ -131,9 +131,10 @@ img,section,i{
     text-align: left;
     align-items: center;
 }
-.c-names .message{
+.c-names .message:hover{
     background-color:rgb(235, 235, 235);
     border-radius:5px;
+    cursor:pointer;
 }
 
 .c-names .message img{
@@ -176,8 +177,9 @@ img,section,i{
     margin-left: 15px;
     margin-top: 5px;
     margin-bottom: 5px;
+    padding:5px;
 }
-.single-name:hover{
+.m-header .single-name:hover{
     background-color: rgb(235,235,235);
     border-radius:5px;
 }
@@ -212,9 +214,12 @@ img,section,i{
     margin-left: 20px;
 }
 .messages #receiver img{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 25px;
+}
+.messages #receiver img:hover{
+    cursor:none;
 }
 .messages .m-chats .receiver{
     max-width: 50%;
@@ -272,8 +277,8 @@ img,section,i{
 }
 
 .profile img{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 25px;
     margin-top: 15px;
     cursor: pointer;
