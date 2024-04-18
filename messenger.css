@@ -21,7 +21,6 @@ width: 100%;
 font-size: 13px;
 border-right: 1px solid rgb(207, 207, 207);
 text-align: center;
-
 }
 
 img,section,i{
@@ -38,12 +37,14 @@ img,section,i{
     margin-top: 2px;
     margin-bottom: 2px;
     padding: 7px;
+    color: rgb(66, 66, 66);
 }
-.active{
+.menus li .active{
     padding: 7px;
     font-size: 20px;
     background-color: rgb(235, 235, 235);
     border-radius: 5px;
+    color: black;
 }
 .menus li i:hover{
     background-color: rgb(235, 235, 235);
@@ -64,6 +65,7 @@ img,section,i{
     background-color: rgb(235, 235, 235);
     border-radius: 25px;
     margin-top: 10px;
+    color: black;
 }
 .menus .bottom li i:hover{
     border-radius: 25px;
@@ -130,8 +132,8 @@ img,section,i{
     display: flex;
     text-align: left;
     align-items: center;
-    margin-left:5px;
-    margin-right:5px;
+    margin-left:10px;
+    margin-right:10px;
 }
 .c-names .message:hover{
     background-color:rgb(235, 235, 235);
@@ -176,7 +178,7 @@ img,section,i{
 .messages .m-header .single-name{
     display: flex;
     align-items: center;
-    margin-left: 15px;
+    margin-left: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
     padding:5px;
@@ -202,6 +204,12 @@ img,section,i{
     margin-right: 5px;
     margin-left: 5px;
     color: hsl(213, 100%, 61%);
+    padding: 8px;
+    
+}
+.messages .m-header .icons i:hover{
+    background-color: rgb(235, 235, 235);
+    border-radius: 25px;
 }
 
 .messages .m-chats{
@@ -258,6 +266,12 @@ img,section,i{
     margin-left: 5px;
     margin-right: 5px;
     color: hsl(213, 100%, 61%);
+    padding:8px;
+}
+
+.messages .m-footer i:hover{
+    background-color: rgb(235, 235, 235);
+    border-radius: 25px;
 }
 .messages .m-footer input{
     padding: 8px;
@@ -300,9 +314,17 @@ img,section,i{
     margin-top: 20px;
 }
 .profile .icons i{
-    padding: 5px;
+    padding: 8px;
     background-color: rgb(235, 235, 235);
     border-radius: 25px;
+}
+/*edit of today*/
+.profile .icons i:hover{
+    background-color: rgb(225, 225, 225);
+}
+.profile .icons p{
+    font-size: 14px;
+    color: rgb(46, 46, 46);
 }
 
 .profile .chat-info{
