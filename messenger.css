@@ -130,8 +130,8 @@ img,section,i{
     display: flex;
     text-align: left;
     align-items: center;
-    width:99%;
-    justify-content:center;
+    margin-left:5px;
+    margin-right:5px;
 }
 .c-names .message:hover{
     background-color:rgb(235, 235, 235);
