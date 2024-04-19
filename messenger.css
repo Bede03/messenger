@@ -132,13 +132,15 @@ img,section,i{
     border-radius: 25px;
     border: none;
     background-color: rgb(235, 235, 235);
+    padding-top:2px;
+    padding-bottom:2px;
 }
 .c-header .search-box i{
-    margin-left: 5px;
+    margin-left: 10px;
     color: rgb(66, 66, 66);
 }
 .c-header .search-box input{
-    width: 90%;
+    width: 88%;
     border-radius: 25px;
     border: none;
     background-color: rgb(235, 235, 235);
@@ -319,6 +321,7 @@ img,section,i{
     background-color: rgb(235, 235, 235);
     padding: 10px;
     font-size: 15px;
+    padding-top:12px;
 }
 /*--- Profile block -----*/
 
