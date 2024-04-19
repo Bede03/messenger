@@ -6,7 +6,9 @@ body{
     margin: 0;
     padding: 0;
 }
-
+a{
+    text-decoration: none;
+}
 .container{
     max-width: 1440px;
     width: 100%;
@@ -21,6 +23,7 @@ width: 100%;
 font-size: 13px;
 border-right: 1px solid rgb(207, 207, 207);
 text-align: center;
+
 }
 
 img,section,i{
@@ -39,6 +42,11 @@ img,section,i{
     padding: 7px;
     color: rgb(66, 66, 66);
 }
+
+.menus li i:hover{
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+}
 .menus li .active{
     padding: 7px;
     font-size: 20px;
@@ -46,13 +54,9 @@ img,section,i{
     border-radius: 5px;
     color: black;
 }
-.menus li i:hover{
-    background-color: rgb(235, 235, 235);
-    border-radius: 5px;
-}
-.menus .bottom{
+/* .menus .bottom{
 
-}
+}*/
 .menus .bottom img{
     width: 40px;
     height: 40px;
@@ -71,6 +75,7 @@ img,section,i{
     border-radius: 25px;
     background-color: rgb(230, 230, 230);
 }
+
 
 
 .chats{
@@ -104,6 +109,7 @@ img,section,i{
     font-size: 20px;
     font-weight: bold;
     background-color: rgb(225, 225, 225);
+    color: rgb(46, 46, 46);
     border-radius: 25px;
     padding: 5px;
     text-align: center;
@@ -120,14 +126,28 @@ img,section,i{
     font-weight: 800;
 }
 
-.chats .c-header input{
+.c-header .search-box{
     width: 90%;
-    padding: 10px;
     font-size: 16px;
     border-radius: 25px;
     border: none;
     background-color: rgb(235, 235, 235);
 }
+.c-header .search-box i{
+    margin-left: 5px;
+    color: rgb(66, 66, 66);
+}
+.c-header .search-box input{
+    width: 90%;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(235, 235, 235);
+    padding: 10px;
+}
+.c-names{
+    overflow: scroll;
+}
+
 .c-names .message{
     display: flex;
     text-align: left;
@@ -150,6 +170,12 @@ img,section,i{
 }
 .c-names .message section{
     margin-left: 15px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+.c-names .active-name{
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
 }
 
 .c-names .message #name{
@@ -266,23 +292,33 @@ img,section,i{
     margin-left: 5px;
     margin-right: 5px;
     color: hsl(213, 100%, 61%);
-    padding:8px;
+    padding: 8px;
+    
 }
-
 .messages .m-footer i:hover{
     background-color: rgb(235, 235, 235);
     border-radius: 25px;
 }
-.messages .m-footer input{
-    padding: 8px;
-    font-size: 15px;
-    width: 62%;
-    border-radius: 20px;
-    padding-left: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-    border: 1px solid rgb(235, 235, 235);
+.m-footer .search-box{
+    width: 80%;
+    font-size: 16px;
+    border-radius: 25px;
+    border: none;
     background-color: rgb(235, 235, 235);
+}
+.m-footer .search-box i{
+    margin-left: 0px;
+    padding: 0px;
+    padding-top: 10px;
+}
+.m-footer .search-box input{
+    max-width: 90%;
+    width: 85%;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(235, 235, 235);
+    padding: 10px;
+    font-size: 15px;
 }
 /*--- Profile block -----*/
 
@@ -317,8 +353,8 @@ img,section,i{
     padding: 8px;
     background-color: rgb(235, 235, 235);
     border-radius: 25px;
+    color: rgb(46, 46, 46);
 }
-/*edit of today*/
 .profile .icons i:hover{
     background-color: rgb(225, 225, 225);
 }
@@ -326,6 +362,7 @@ img,section,i{
     font-size: 14px;
     color: rgb(46, 46, 46);
 }
+
 
 .profile .chat-info{
     display: flex;
