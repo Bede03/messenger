@@ -134,6 +134,8 @@ img,section,i{
     background-color: rgb(235, 235, 235);
     padding-top:2px;
     padding-bottom:2px;
+    margin-left:5%;
+    margin-right:5%;
 }
 .c-header .search-box i{
     margin-left: 10px;
@@ -244,9 +246,6 @@ img,section,i{
 
 .messages .m-chats{
     height: 78dvh;
-    display: flexbox;
-    justify-content: last baseline;
-
 }
 .messages #receiver{
     display: flex;
