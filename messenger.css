@@ -1,5 +1,6 @@
 *{
     font-family: Helvetica;
+    box-sizing:border-box;
 }
 
 body{
@@ -13,7 +14,7 @@ a{
     max-width: 1440px;
     width: 100%;
     display: flex;
-    height: 100dvh;
+    height: auto;
     position: fixed;
 }
 
@@ -152,6 +153,7 @@ img,section,i{
 }
 .c-names{
     overflow: scroll;
+    height:100%;
 }
 
 .c-names .message{
@@ -424,3 +426,145 @@ img,section,i{
     border-radius: 5px;
 }
 
+@media(max-width:1440px){
+    .messages .m-footer .search-box input{
+        width: 50%;
+    }
+    .messages .m-footer .search-box i{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(max-width:900px){
+
+    .container{
+        max-width: 900px;
+        width: 100%;
+    }
+    .menus{
+        width: 100%;
+    }
+
+    .chats{
+        width: 90px;
+        margin-right: 20px;
+    }
+
+    .chats .c-header{
+        width: 100%;
+    }
+    .chats ul{
+        display: none;
+    }
+    .chats .search-box{
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        margin-left: auto;
+    }
+    .chats .c-header input{
+        width: 50%;
+    }
+
+    .chats .c-names{
+        overflow-y: auto;
+    }
+    .chats .message{
+        margin-right: auto;
+    }
+    .chats .message img{
+        width: 50px;
+        height: 50px;
+        border-radius: 40px;
+        margin: 10px;
+    }
+
+    .chats .c-names .message section{
+        display: none;
+    }
+    .messages{
+        width: 55.5%;
+    }
+
+    .messages .m-footer{
+        width: 100%;
+    }
+    .messages .m-footer .search-box{
+        width: 60%;
+    }
+    .messages .m-footer i{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .messages .m-footer .search-box input{
+        width: 80%;
+    }
+    .messages .m-footer .search-box i{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .profile{
+        width: 260px;
+    }
+
+}
+
+@media(max-width:800px){
+
+    .messages .m-footer{
+        width: 100%;
+    }
+    .messages .m-footer .search-box{
+        width: 60%;
+    }
+    .messages .m-footer i{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .messages .m-footer .search-box input{
+        width: 75%;
+    }
+    .messages .m-footer .search-box i{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .profile{
+        width: 260px;
+    }
+}
+
+@media(max-width:740px){
+    
+    .messages .m-footer .search-box input{
+        width: 60%;
+    }
+    .messages .m-footer .search-box i{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .profile{
+        width: 260px;
+    }
+}
+
+@media(max-width:650px){
+    .messages .m-chats{
+        overflow-y: scroll;
+    }
+    
+    .messages .m-footer .search-box input{
+        width: 40%;
+    }
+    .messages .m-footer .search-box i{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .profile{
+        width: 260px;
+    }
+}
