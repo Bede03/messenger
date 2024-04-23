@@ -443,6 +443,15 @@ img,section,i{
     .messages .m-chats{
         overflow-y: scroll;
     }
+    .messages .m-header .icons{
+        margin-right: 0px;
+    }
+    .messages .m-header .icons i{
+        margin-right: 0px;
+        margin-left: 0px;
+        padding: 8px;
+        
+    }
 }
 @media(max-width:1000px){
     .messages .m-footer .search-box input{
