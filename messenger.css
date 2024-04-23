@@ -428,13 +428,43 @@ img,section,i{
 
 @media(max-width:1440px){
     .messages .m-footer .search-box input{
-        width: 50%;
+        width: 95%;
     }
     .messages .m-footer .search-box i{
         margin-left: auto;
         margin-right: auto;
     }
 }
+
+@media(max-width:1030px){
+    .messages .m-footer .search-box input{
+        width: 75%;
+    }
+    .messages .m-chats{
+        overflow-y: scroll;
+    }
+}
+@media(max-width:1000px){
+    .messages .m-footer .search-box input{
+        width: 70%;
+    }
+}
+@media(max-width:970px){
+    .messages .m-footer .search-box input{
+        width: 65%;
+    }
+}
+@media(max-width:955px){
+    .chats .c-header .search-box input{
+        width: 80%;
+    }
+}
+@media(max-width:945px){
+    .messages .m-footer .search-box input{
+        width: 55%;
+    }
+}
+
 
 @media(max-width:900px){
 
@@ -448,7 +478,7 @@ img,section,i{
 
     .chats{
         width: 90px;
-        margin-right: 20px;
+        margin-right: auto;
     }
 
     .chats .c-header{
@@ -463,8 +493,11 @@ img,section,i{
         margin-bottom: 5px;
         margin-left: auto;
     }
-    .chats .c-header input{
-        width: 50%;
+    .chats .c-header .search-box input{
+        width: 100%;
+    }
+    .chats .c-header .search-box i{
+        display: none;
     }
 
     .chats .c-names{
@@ -498,7 +531,7 @@ img,section,i{
         margin-right: auto;
     }
     .messages .m-footer .search-box input{
-        width: 80%;
+        width: 90%;
     }
     .messages .m-footer .search-box i{
         margin-left: auto;
@@ -509,6 +542,12 @@ img,section,i{
         width: 260px;
     }
 
+}
+
+@media(max-width:850px){
+    .messages .m-footer .search-box input{
+        width: 88%;
+    }
 }
 
 @media(max-width:800px){
@@ -524,6 +563,75 @@ img,section,i{
         margin-right: auto;
     }
     .messages .m-footer .search-box input{
+        width: 87%;
+    }
+    .messages .m-footer .search-box i{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .profile{
+        width: 260px;
+    }
+}
+
+@media(max-width:762px){
+    .chats{
+        margin-right: auto;
+    }
+    .chats .c-header{
+        margin: auto;
+    }
+    .chats .c-header .search-box{
+        width: fit-content;
+    }
+    .chats .c-header .search-box input{
+        width: 100%;
+    }
+    .chats .c-header .search-box i{
+        display: none;
+    }
+    
+    .messages .m-footer .search-box input{
+        width: 84%;
+    }
+    .messages .m-footer .search-box i{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .messages .m-header i{
+        display: none;
+    }
+    .messages .m-footer i{
+        display: none;
+    }
+    .messages .m-footer .search-box{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .messages .m-footer .search-box input{
+        width: 90%;
+    }
+
+    .profile{
+        width: 260px;
+    }
+}
+
+@media(max-width:705px){
+    .messages .m-footer .search-box input{
+        width: 80%;
+    }
+}
+
+@media(max-width:670px){
+    .messages .m-chats{
+        overflow-y: scroll;
+    }
+    
+    .messages .m-footer .search-box input{
         width: 75%;
     }
     .messages .m-footer .search-box i{
@@ -536,35 +644,53 @@ img,section,i{
     }
 }
 
-@media(max-width:740px){
-    
+@media(max-width:630px){
     .messages .m-footer .search-box input{
-        width: 60%;
-    }
-    .messages .m-footer .search-box i{
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .profile{
-        width: 260px;
+        width: 70%;
     }
 }
 
-@media(max-width:650px){
-    .messages .m-chats{
-        overflow-y: scroll;
-    }
-    
+@media(max-width:610px){
     .messages .m-footer .search-box input{
-        width: 40%;
+        width: 65%;
     }
-    .messages .m-footer .search-box i{
-        margin-left: auto;
-        margin-right: auto;
+}
+
+
+@media(max-width:595px){
+    .messages .m-footer .search-box input{
+        width: 55%;
+    }
+}
+@media(max-width:572px){
+    
+    .chats .c-header{
+        margin: auto;
+        padding-bottom: 25px;
+    }
+}
+@media(max-width:375px){
+    .chats{
+        margin: auto;
+        margin-top: 0px;
+    }
+    .chats .c-names{
+        width: 60px;
+    }
+    .chats .message{
+        margin: auto;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .chats .c-names img{
+        width: 30px;
+        height: 30px;
+    }
+    .messages{
+        font-size: 13px;
     }
 
-    .profile{
-        width: 260px;
+    .privacy{
+        font-size: 13px;
     }
 }
