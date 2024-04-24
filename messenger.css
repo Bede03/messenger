@@ -426,6 +426,7 @@ img,section,i{
     border-radius: 5px;
 }
 
+
 @media(max-width:1440px){
     .messages .m-footer .search-box input{
         width: 95%;
@@ -438,7 +439,7 @@ img,section,i{
 
 @media(max-width:1030px){
     .messages .m-footer .search-box input{
-        width: 75%;
+        width: 85%;
     }
     .messages .m-chats{
         overflow-y: scroll;
@@ -452,15 +453,18 @@ img,section,i{
         padding: 8px;
         
     }
+    .profile{
+        width: 500px;
+    }
 }
 @media(max-width:1000px){
     .messages .m-footer .search-box input{
-        width: 70%;
+        width: 83%;
     }
 }
 @media(max-width:970px){
     .messages .m-footer .search-box input{
-        width: 65%;
+        width: 80%;
     }
 }
 @media(max-width:955px){
@@ -470,7 +474,7 @@ img,section,i{
 }
 @media(max-width:945px){
     .messages .m-footer .search-box input{
-        width: 55%;
+        width: 75%;
     }
 }
 
@@ -672,10 +676,18 @@ img,section,i{
     }
 }
 @media(max-width:572px){
-    
+    .chats{
+        margin-right: 0px;
+    }
+    .messages{
+        width: 100%;
+    }
     .chats .c-header{
         margin: auto;
         padding-bottom: 25px;
+    }
+    .profile{
+        display: none;
     }
 }
 @media(max-width:375px){
